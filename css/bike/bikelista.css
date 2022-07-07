@@ -40,7 +40,7 @@
 }
 .bicicletas-lista h3::before {
   content: "";
-  background-color: lightseagreen;
+  background-color: var(--corp1);
   height: 8px;
   width: 12px;
   display: inline-block;

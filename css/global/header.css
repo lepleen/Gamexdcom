@@ -3,7 +3,7 @@
 
 .header-bg {/* background*/
 
-  background: var(--cor11);
+  background: var(--cor12);
 }
 
 .header {
@@ -61,7 +61,7 @@
       display: block;
       height: 2px;
       width: 0px;
-      background: var(--cor00);
+      background: var(--cor11);
       margin-top: 4px;
       transition: 0.3s;
       position: absolute;

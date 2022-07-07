@@ -3,13 +3,13 @@
 
     .introducao-bg {
       background: var(--cor12);
-      box-shadow: inset 0px -120px #fff;
+      box-shadow: inset 0px -120px var(--cor0);
 
     } @media (max-width: 800px) {
       .introducao-bg {
         background: #111111;
         padding-top: 40px;
-        box-shadow: inset 0 -60px #ffff;
+        box-shadow: inset 0 -60px var(--cor0);
       }
     }
 
@@ -65,7 +65,7 @@
     }
 
     .introducao h1 span {
-      color: #ffbb00;
+      color: var( --corp1);
     }
 
     .introducao p {
