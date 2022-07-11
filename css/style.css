@@ -9,6 +9,8 @@
 
 /*css introducao*/
 @import "./home/introducao.css";
+@import "./home/tec.css";
+@import "./home/parceiros.css";
 
 /*css bike lista*/
 @import "./bike/bikelista.css";
