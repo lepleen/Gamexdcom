@@ -3,14 +3,27 @@
 @import "./utils/cores.css";
 
 @import "./global/header.css";
+@import "./global/footer.css";
+
+
 
 /*css componentes uteis*/
 @import "./utils/prop.css";
 
 /*css introducao*/
 @import "./home/introducao.css";
+
+/*css tecnologia*/
 @import "./home/tec.css";
+
+/*css parceiros*/
 @import "./home/parceiros.css";
+
+/*css citacoes*/
+@import "./home/quote.css";
 
 /*css bike lista*/
 @import "./bike/bikelista.css";
+
+/*css seguros*/
+@import "./seg/seg.css";

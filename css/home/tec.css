@@ -1,6 +1,6 @@
   .tec-bg {
     background: var(--cor11);
-    box-shadow: inset 0 80px var(--cor1), inset 0 -80px var(--cor1) ;
+    box-shadow: inset 0 80px var(--corp2), inset 0 -80px var(--corp1) ;
   } @media (max-width: 800px){
     .tec-bg{
       box-shadow: initial;

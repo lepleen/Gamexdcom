@@ -11,12 +11,13 @@
 .botao{
   padding: 16px 32px;
   display: inline-block;
-  background: linear-gradient(#ffbb00, #f2a50c);
+  background: linear-gradient(#9305F2, #744EF5);
   border-radius: 4px;
   box-shadow:  0 1px 2px 0px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
-  color: var(--corp5);
+  color: var(--corp11);
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
+  max-width: max-content;
 }
 
 .botao:hover {
@@ -45,4 +46,14 @@
 
 .link:hover {
   color: var(--corp3);
+}
+
+.botao.sec {
+  background: var(--cor10);
+  color: var(--cor2);
+}
+
+.botao.sec:hover {
+  background: var(--cor9);
+  color: var(--cor2);
 }

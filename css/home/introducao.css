@@ -3,7 +3,7 @@
 
     .introducao-bg {
       background: var(--cor12);
-      box-shadow: inset 0px -120px var(--cor0);
+      box-shadow: inset 0px -120px var(--corp6);
 
     } @media (max-width: 800px) {
       .introducao-bg {

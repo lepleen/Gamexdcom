@@ -1,6 +1,7 @@
 .bicicletas-lista {
   padding-top: 60px;
   padding-bottom: 120px;
+  background: var(--cor11);
 
 } @media (max-width: 800px){
   .bicicletas-lista {
@@ -9,6 +10,7 @@
 }
 .bicicletas-lista h2 {
   margin-bottom: 40px;
+  color: var(--cor0);
   
 }
 .bicicletas-lista ul {
