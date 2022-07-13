@@ -24,6 +24,11 @@
 
 /*css bike lista*/
 @import "./bike/bikelista.css";
+/*css bike */
+@import "./bike/bike.css";
 
 /*css seguros*/
 @import "./seg/seg.css";
+
+/*css termos*/
+@import "./termos/termos.css";

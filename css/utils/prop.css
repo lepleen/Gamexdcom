@@ -18,10 +18,15 @@
   color: var(--corp11);
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
   max-width: max-content;
+
+
+
 }
 
 .botao:hover {
-  background: linear-gradient(#ffb60d, #e59317);
+  background: linear-gradient(#744EF5, #9305F2);
+  transition: 1s;
+  
 
 } @media (max-width: 600px) {
   .botao {
@@ -56,4 +61,29 @@
 .botao.sec:hover {
   background: var(--cor9);
   color: var(--cor2);
+  transition: 1s;
+
+}
+
+/* titulo interno*/
+.tit-bg {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: var(--cor11);
+
+}
+
+.tit p {
+  margin-bottom: 4px;
+}
+@media (max-width: 800px) {
+  .tit {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .tit p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
 }
