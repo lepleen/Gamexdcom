@@ -1,4 +1,4 @@
-# Gamexdcom
+# <span>G</span>ame<span>xd</span>com
 Site desenvolvido pelo curso de HTML e CSS iniciantes na Origamid
 
 
