@@ -1,16 +1,18 @@
-# gamecraft
+# Gamexdcom
 Site desenvolvido pelo curso de HTML e CSS iniciantes na Origamid
 
 
-<a href="">https://lepleen.github.io/gamecraft/</a>
+<a href="https://lepleen.github.io/gamecraft">https://lepleen.github.io/gamecraft/</a>
+<br/>
+Em desenvolvimento...<br/>
+<br/>
+<a href="https://lepleen.github.io/gamecraft" alt="Gamexdcom site" target="_blank"><img src="https://lepleen.github.io/gamecraft/img/capa.png" alt="Capa Gamecraft | Site de video games"/>
+</a>
 
-
-Em desenvolvimento...
-<img src="https://lepleen.github.io/gamecraft/img/capa.png" alt="Capa Gamecraft | Site de video games"/>
 
 <br/>
-#
-Conteudo do curso:
+<br/>
+<b> Conteudo do curso: </b>
 
 <ul>
   <li>HTML e CSS Básico</li>
