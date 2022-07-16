@@ -1,0 +1,59 @@
+.quest {
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+.quest h2 {
+  margin-bottom: 60px;
+}
+.quest dl > div {
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.quest dl > div:nth-child(odd) {
+  background: var(--cor1);
+}
+.quest dt {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 8pxs;
+  cursor: pointer;
+}
+.quest dt::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background: var(--corp1);
+}
+
+.quest dt::after {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 6px;
+  background: url("../../img/icones/seta-abrir.svg");
+  transition: 0.3s;
+}
+
+.quest dt:hover::after{
+ transform: rotate(180deg);
+}
+
+.quest dd {
+  padding-left: 20px;
+  padding-top: 16px;
+  max-width: 80ch;
+}
+
+@media (max-width: 800px) {
+  .quest {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .quest h2 {
+    margin-bottom: 40px;
+  }
+}

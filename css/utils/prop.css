@@ -18,9 +18,6 @@
   color: var(--corp11);
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
   max-width: max-content;
-
-
-
 }
 
 .botao:hover {
@@ -64,7 +61,22 @@
   transition: 1s;
 
 }
-
+/*  botao com seta*/
+.botao.seta {
+  align-items: center;
+}
+.botao.seta::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url("../../img/icones/seta.svg");
+  transition: transform 0.2s;
+}
+.botao.seta:hover::after {
+ transform: translateX(4px);
+}
 /* titulo interno*/
 .tit-bg {
   padding-top: 60px;

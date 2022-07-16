@@ -1,0 +1,45 @@
+.seg-game-bg {
+  background: var(--cor12);
+  box-shadow: inset 0 120px var(--cor0), inset 0 -120px var(--cor12);
+}
+
+.seg-game {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.seg-game-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.seg-game-cont {
+  padding-top: 180px;
+}
+
+.seg-game h2 {
+  margin-bottom: 32px;
+}
+
+.seg-game p {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 800px){
+  .seg-game-bg {
+    background: var(--cor12);
+    box-shadow: inset 0 -60px var(--cor12);
+  }
+  .seg-game {
+    grid-template-columns: 1fr;
+  }
+  .seg-game-img {
+    height: 200px;
+  }
+  .seg-game-cont {
+    grid-row: 1;
+    padding-top: 40px;
+    padding-bottom: 0px;
+  }
+}

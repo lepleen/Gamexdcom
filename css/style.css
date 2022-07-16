@@ -24,11 +24,16 @@
 
 /*css bike lista*/
 @import "./bike/bikelista.css";
-/*css bike */
 @import "./bike/bike.css";
+@import "./bike/seggame.css";
+
+/*css bike especificacoes*/
+@import "./bikespec/bikespec.css";
 
 /*css seguros*/
 @import "./seg/seg.css";
+@import "./seg/vant.css";
+@import "./seg/quest.css";
 
 /*css termos*/
 @import "./termos/termos.css";
