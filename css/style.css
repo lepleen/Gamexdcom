@@ -9,6 +9,7 @@
 
 /*css componentes uteis*/
 @import "./utils/prop.css";
+@import "./utils/form.css";
 
 /*css introducao*/
 @import "./home/introducao.css";
@@ -34,6 +35,10 @@
 @import "./seg/seg.css";
 @import "./seg/vant.css";
 @import "./seg/quest.css";
+
+/*css contato*/
+@import "./contact/contact.css";
+@import "./contact/store.css";
 
 /*css termos*/
 @import "./termos/termos.css";
